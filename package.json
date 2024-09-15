@@ -1,0 +1,30 @@
+{
+  "name": "app-hangs-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "uvu -r tsm",
+    "test:working": "uvu -r tsm working",
+    "test:hangs": "uvu -r tsm hangs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "WTFPL",
+  "devDependencies": {
+    "@tinyhttp/app": "2.2.0",
+    "@tinyhttp/cookie-parser": "^2.0.6",
+    "@types/express-session": "1.17.8",
+    "@types/node": "^22.5.5",
+    "express-session": "1.18.0",
+    "milliparsec": "4.0.0",
+    "supertest-fetch": "1.5.0",
+    "tsm": "^2.3.0",
+    "typescript": "^5.6.2",
+    "uvu": "^0.5.6"
+  },
+  "dependencies": {
+    "malibu": "^1.0.6"
+  }
+}
